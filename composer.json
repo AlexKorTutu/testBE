@@ -1,0 +1,22 @@
+{
+  "name": "faulty-server",
+  "license": "proprietary",
+  "type": "project",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "slim/slim": "^3.0",
+    "vlucas/phpdotenv": "^3.3",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "php-amqplib/php-amqplib": "^2.12",
+    "php-di/php-di": "^6.0",
+    "php-di/slim-bridge": "^2.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "faulty\\": "src"
+    }
+  }
+}
